@@ -4,24 +4,23 @@
 
 ## Requirements
 - An NVIDIA GPU with a compute capability of 3.0 or higher.
-I'll be using a GTX 1050 Ti hooked up externally to a thinkpad T420s through the express card port
-Python installed.
-Ubuntu comes with python already installed but I will be using anaconda
+- I'll be using a GTX 1050 Ti hooked up externally to a thinkpad T420s through the express card port Python installed.
+- Ubuntu comes with python already installed but I will be using anaconda
 
 ## Overview
-Step 1: Update your GPU driver (should be higher than version 390)
-Step 2: Install the CUDA Toolkit version 9.0 (with all the patches)
-Step 3: Install CUDNN 7.0.5
-Step 4: Install Tensorflow GPU with pip
-Step 5: Test it!
+- Step 1: Update your GPU driver (should be higher than version 390)
+- Step 2: Install the CUDA Toolkit version 9.0 (with all the patches)
+- Step 3: Install CUDNN 7.0.5
+- Step 4: Install Tensorflow GPU with pip
+- Step 5: Test it!
 
 ### Step 1: Update your GPU driver
 
->sudo add-apt-repository ppa:graphics-drivers/ppa
->sudo apt update
->sudo apt install nvidia-390
->Reboot your computer. To verify the installation, open a terminal and run the following command
->nvidia-smi
+> sudo add-apt-repository ppa:graphics-drivers/ppa
+> sudo apt update
+> sudo apt install nvidia-390
+> Reboot your computer. To verify the installation, open a terminal and run the following command
+> nvidia-smi
 
 Step 2: Install the CUDA Toolkit (9.0)
 go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 17.04, deb l
