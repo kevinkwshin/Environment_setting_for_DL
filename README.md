@@ -49,15 +49,11 @@ sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*</pre></code>
 
 ### Step 4: pip install tensorflow-gpu
-I will be using a conda environment for installing tensorflow
 
-create a conda environment by using the following command
-conda create -n tf python=3.6 pip
-activate your environment using
-source activate tf
-run the following command to install tensorflow
+Install pip3
+<pre><code>sudo apt-get install python3-pip python3-dev
 
-pip install tensorflow-gpu==1.5
+pip3 install tensorflow-gpu</pre></code>
 
 ### Step 5: Test it!
 run the following lines
