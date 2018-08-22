@@ -15,12 +15,16 @@ Step 3: Install CUDNN 7.0.5
 Step 4: Install Tensorflow GPU with pip
 Step 5: Test it!
 
-Step 1: Update your GPU driver
+###Step 1: Update your GPU driver
 
 >sudo add-apt-repository ppa:graphics-drivers/ppa
+
 >sudo apt update
+
 >sudo apt install nvidia-390
+
 >Reboot your computer. To verify the installation, open a terminal and run the following command
+
 >nvidia-smi
 
 Step 2: Install the CUDA Toolkit (9.0)
