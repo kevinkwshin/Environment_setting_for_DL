@@ -16,9 +16,10 @@
 
 > - sudo add-apt-repository ppa:graphics-drivers/ppa
 > - sudo apt update
-> sudo apt install nvidia-390
-> Reboot your computer. To verify the installation, open a terminal and run the following command
-> nvidia-smi
+> - sudo apt install nvidia-390
+
+Reboot your computer. To verify the installation, open a terminal and run the following command
+> - nvidia-smi
 
 ### Step 2: Install the CUDA Toolkit (9.0)
 go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 16.04.
