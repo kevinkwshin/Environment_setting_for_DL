@@ -1,5 +1,6 @@
 # Install Tensorflow on Ubuntu (16.04)
 
+
 ## Requirements
 - An NVIDIA GPU with a compute capability of 3.0 or higher.
 - I'll be using a GTX 1050 Ti hooked up externally to a thinkpad T420s through the express card port Python installed.
