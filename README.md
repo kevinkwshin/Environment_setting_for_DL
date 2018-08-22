@@ -15,20 +15,21 @@
 
 ### Step 1: Update your GPU driver
 
-> - sudo add-apt-repository ppa:graphics-drivers/ppa
-> - sudo apt update
-> - sudo apt install nvidia-390
+<pre><code>sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt update
+sudo apt install nvidia-390
+</pre></code>
 
 Reboot your computer. To verify the installation, open a terminal and run the following command
-> - nvidia-smi
+<pre><code>nvidia-smi</pre><c/ode>
 
 ### Step 2: Install the CUDA Toolkit (9.0)
 go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 16.04.
 
-> - sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb 
-> - sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
-> - sudo apt-get update
-> - sudo apt-get install cuda-9-0
+<pre><code>sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb 
+sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
+sudo apt-get update
+sudo apt-get install cuda-9-0</pre></code>
 
 open your .bashrc file with nano
 > - sudo nano ~/.bashrc
