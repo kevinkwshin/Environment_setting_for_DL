@@ -38,6 +38,7 @@ go to the last line and add the following lines (this will set your PATH variabl
 
 ### Step 3: Install CUDNN 7.0.5
 go to https://developer.nvidia.com/cudnn
+
 Select CUDNN 7.0.5 for CUDA 9.0, download the cuDNN v7.0.5 Library for Linux (tar file)
 
 > - tar -xzvf cudnn-9.0-linux-x64-v7.tgz
