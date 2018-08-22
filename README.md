@@ -14,8 +14,8 @@
 
 ### Step 1: Update your GPU driver
 
-> sudo add-apt-repository ppa:graphics-drivers/ppa
-> sudo apt update
+> - sudo add-apt-repository ppa:graphics-drivers/ppa
+> - sudo apt update
 > sudo apt install nvidia-390
 > Reboot your computer. To verify the installation, open a terminal and run the following command
 > nvidia-smi
