@@ -1,5 +1,3 @@
-# Ubuntu-setting
-
 # Install Tensorflow on Ubuntu (16.04)
 
 ## Requirements
@@ -22,7 +20,7 @@
 > Reboot your computer. To verify the installation, open a terminal and run the following command
 > nvidia-smi
 
-Step 2: Install the CUDA Toolkit (9.0)
+### Step 2: Install the CUDA Toolkit (9.0)
 go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 17.04, deb l
 once the download is complete, open a terminal in the directory the base installer is and run the follow commands
 
@@ -37,7 +35,7 @@ go to the last line and add the following lines (this will set your PATH variabl
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
-Step 3: Install CUDNN 7.0.5
+### Step 3: Install CUDNN 7.0.5
 go to https://developer.nvidia.com/cudnn
 Select CUDNN 7.0.5 for CUDA 9.0
 download the cuDNN v7.0.5 Library for Linux (tar file)
@@ -49,7 +47,7 @@ sudo cp cuda/include/cudnn.h /usr/local/cuda/include
 sudo cp cuda/lib64/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
-Step 4: pip install tensorflow-gpu
+### Step 4: pip install tensorflow-gpu
 I will be using a conda environment for installing tensorflow
 
 create a conda environment by using the following command
@@ -59,13 +57,10 @@ source activate tf
 run the following command to install tensorflow
 
 pip install tensorflow-gpu==1.5
-Step 5: Test it!
-start a python interpreter in the terminal by typing
-python
+
+### Step 5: Test it!
 run the following lines
->>> import tensorflow as tf
->>> hello = tf.constant('hello tensorflow')
->>> with tf.Session() as sesh:
->>>     sesh.run(hello)
-the output should be
->>> 'hello tensorflow'
+> import tensorflow as tf
+> hello = tf.constant('hello tensorflow')
+> with tf.Session() as sesh:
+>     sesh.run(hello)
