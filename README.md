@@ -21,8 +21,7 @@
 > nvidia-smi
 
 ### Step 2: Install the CUDA Toolkit (9.0)
-go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 17.04, deb l
-once the download is complete, open a terminal in the directory the base installer is and run the follow commands
+go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 16.04.
 
 sudo dpkg -i cuda-repo-ubuntu1604_9.0.176-1_amd64.deb 
 sudo apt-key adv --fetch-keys http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1604/x86_64/7fa2af80.pub
