@@ -1,7 +1,11 @@
 EFI ..
 ubiquity -b
 
+
 E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavailable)
 E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
 
 https://www.hahwul.com/2016/08/debian-apt-get-could-not-get-lock.html
+<code>
+https://itsfoss.com/fix-ubuntu-install-error/
+</code>
