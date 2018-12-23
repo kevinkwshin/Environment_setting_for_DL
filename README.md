@@ -63,3 +63,6 @@ run the following lines
 hello = tf.constant('hello tensorflow')
 with tf.Session() as sesh:
     sesh.run(hello)</pre></code>
+
+
+https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73
