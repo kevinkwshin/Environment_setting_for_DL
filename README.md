@@ -13,8 +13,10 @@
 - Step 4: Install Tensorflow GPU with pip
 - Step 5: Test it!
 
-### Step 1: Update your GPU driver
+### to verify your gpu is cuda enable check
+lspci | grep -i nvidia
 
+### Step 1: Update your GPU driver
 <pre><code>sudo add-apt-repository ppa:graphics-drivers/ppa
 sudo apt update
 sudo apt install nvidia-390
