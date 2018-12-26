@@ -13,4 +13,13 @@ https://itsfoss.com/fix-ubuntu-install-error/
 </code>
 
 unbuntu remote using putty
+
+sudo su
+apt-get install ssh
+nano /etc/ssh/sshd_config
+Port 1984
+
+service ssh restart
+
+
 https://www.youtube.com/watch?v=cXygRsXOFtc
