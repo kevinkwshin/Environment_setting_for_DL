@@ -3,6 +3,7 @@
 https://askubuntu.com/questions/260297/why-12-04-fails-to-install-grub-efi-to-target/774537#774537
 
 <code>ubiquity -b
+	
 sudo mount /dev/sdXY /mnt
 
 sudo mount --bind /dev /mnt/dev &&
@@ -24,6 +25,7 @@ E: Could not get lock /var/lib/dpkg/lock - open (11: Resource temporarily unavai
 E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
 
 https://www.hahwul.com/2016/08/debian-apt-get-could-not-get-lock.html
+
 https://itsfoss.com/fix-ubuntu-install-error/
 
 sudo rm /var/lib/apt/lists/lock
