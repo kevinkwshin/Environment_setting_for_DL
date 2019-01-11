@@ -1,9 +1,8 @@
 # 우분투 설치시1
 /target/에 'grub-efi-amd64-signed' 패키지를 설치하는 데 실패했습니다. GRUB 부트로더 없이는 시스템이 부팅하지 않습니다.
 https://askubuntu.com/questions/260297/why-12-04-fails-to-install-grub-efi-to-target/774537#774537
-<code>
-ubiquity -b
 
+<code>ubiquity -b
 sudo mount /dev/sdXY /mnt
 
 sudo mount --bind /dev /mnt/dev &&
