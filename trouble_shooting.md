@@ -26,6 +26,11 @@ E: Unable to lock the administration directory (/var/lib/dpkg/), is another proc
 https://www.hahwul.com/2016/08/debian-apt-get-could-not-get-lock.html
 https://itsfoss.com/fix-ubuntu-install-error/
 
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+dpkg --configure -a
+
 # 우분투 터미널 원격접속 설정
 unbuntu remote using putty
 sudo su
