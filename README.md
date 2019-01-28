@@ -10,9 +10,9 @@ root : logical, rest (recommanded)
 
 <p>
   <code>
-after installing, do not reboot. open terminal and run below codes
+# after installing, do not reboot. open terminal and run below codes
 
-sudo mount /dev/sdXY /mnt
+sudo mount /dev/sdXY /mnt #sdXY --> ex)sda5
 
 sudo mount --bind /dev /mnt/dev &&
 sudo mount --bind /dev/pts /mnt/dev/pts &&
@@ -21,10 +21,8 @@ sudo mount --bind /sys /mnt/sys
 
 sudo chroot /mnt
 
-grub-install /dev/sdX
-
-grub-install --recheck /dev/sdX
-
+grub-install /dev/sdX #sdX --> sda
+grub-install --recheck /dev/sdX #sdX -->sda
 update-grub
   </code>
 </p>
