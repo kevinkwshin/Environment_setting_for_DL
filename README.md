@@ -1,15 +1,16 @@
 # Install Tensorflow on Ubuntu (16.04)
+
+## Open a terminal, instead of installing tool
 <code>
       
       ubiquity -b
       #partition settings
       swap : primary, 8192 (recommanded)
       root : logical, rest (recommanded)
-      
+
 </code>
 
-<p>
-  <code>
+<code>
      
     # after installing, do not reboot. open terminal and run below codes
      
@@ -25,5 +26,4 @@
     grub-install /dev/sdX #sdX --> sda
     grub-install --recheck /dev/sdX #sdX -->sda
     update-grub
-  </code>
-</p>
+</code>
