@@ -3,6 +3,15 @@
 <code>
 ubiquity -b
 
+partition settings
+swap : primary, 8192 (recommanded)
+root : logical, rest (recommanded)
+</code>
+
+<p>
+  <code>
+after installing, do not reboot. open terminal and run below codes
+
 sudo mount /dev/sdXY /mnt
 
 sudo mount --bind /dev /mnt/dev &&
@@ -17,4 +26,5 @@ grub-install /dev/sdX
 grub-install --recheck /dev/sdX
 
 update-grub
-</code>
+  </code>
+</p>
