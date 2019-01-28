@@ -4,7 +4,7 @@
    <code>
     ubiquity -b
 
-    # partition settings
+    #partition settings
     swap : primary, 8192 (recommanded)
     root : logical, rest (recommanded)
   </code>
@@ -13,8 +13,8 @@
 
 <p>
   <code>
-    # after installing, do not reboot. open terminal and run below codes
-
+    #after installing, do not reboot. open terminal and run below codes
+     
     sudo mount /dev/sdXY /mnt #sdXY --> ex)sda5
 
     sudo mount --bind /dev /mnt/dev &&
