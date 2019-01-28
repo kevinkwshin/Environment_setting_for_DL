@@ -1,5 +1,4 @@
 # Install Tensorflow on Ubuntu (16.04)
-
 <code>
       
       ubiquity -b
