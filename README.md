@@ -1,15 +1,13 @@
 # Install Tensorflow on Ubuntu (16.04)
 
-<p>
-   <code>
+<code>
       
       ubiquity -b
       #partition settings
       swap : primary, 8192 (recommanded)
       root : logical, rest (recommanded)
-  </code>
-</p>
-
+      
+</code>
 
 <p>
   <code>
