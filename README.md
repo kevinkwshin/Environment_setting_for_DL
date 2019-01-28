@@ -2,11 +2,10 @@
 
 <p>
    <code>
-    ubiquity -b
-
-    #partition settings
-    swap : primary, 8192 (recommanded)
-    root : logical, rest (recommanded)
+      ubiquity -b
+      #partition settings
+      swap : primary, 8192 (recommanded)
+      root : logical, rest (recommanded)
   </code>
 </p>
 
