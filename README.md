@@ -1,16 +1,18 @@
 # Install Tensorflow on Ubuntu (16.04)
 
-<code>
-ubiquity -b
+<p>
+   <code>
+    ubiquity -b
 
-partition settings
-swap : primary, 8192 (recommanded)
-root : logical, rest (recommanded)
-</code>
+    # partition settings
+    swap : primary, 8192 (recommanded)
+    root : logical, rest (recommanded)
+  </code>
+</p>
 
 <p>
   <code>
-    after installing, do not reboot. open terminal and run below codes
+    # after installing, do not reboot. open terminal and run below codes
 
     sudo mount /dev/sdXY /mnt #sdXY --> ex)sda5
 
