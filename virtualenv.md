@@ -2,9 +2,10 @@
   # Make account:
 
   <code>
+        
         sudo adduser $yourname
-  
         #input your information
+        
   </code>
 
   # How to install virtualenv:
