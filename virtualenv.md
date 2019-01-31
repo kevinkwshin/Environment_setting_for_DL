@@ -2,7 +2,7 @@
   # Make account:
 
   <code>
-    sudo adduser $yourname
+    sudo adduser $yourname <br>
     #input your information
         
   </code>
