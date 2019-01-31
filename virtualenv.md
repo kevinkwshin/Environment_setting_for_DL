@@ -1,11 +1,12 @@
-
   # Make account:
 
-  <code>
-    sudo adduser $yourname <br>
-    #input your information
+
+
+You need ubuntu acoount first:
+
+    sudo adduser $yourname
         
-  </code>
+Please fill out your information
 
   # How to install virtualenv:
 
