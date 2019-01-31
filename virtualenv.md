@@ -1,14 +1,14 @@
-# Make account:
+# 1.Make account:
 
-You need ubuntu acoount first:
+You need ubuntu acoount first. For sudoers information, please contact administrator.
 
     sudo adduser $yourname
         
-Please fill out your information
+And please fill out your information.
 
-# How to install virtualenv:
+# 2.How to install virtualenv in my account:
  
-log in with your account
+Firstly, log in with your account
 
     virtualenv -p python3 $yourname 
 
