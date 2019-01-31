@@ -3,6 +3,7 @@
 
   <code>
         sudo adduser $yourname
+  
         #input your information
   </code>
 
