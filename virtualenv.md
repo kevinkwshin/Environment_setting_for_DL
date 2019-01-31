@@ -1,6 +1,4 @@
-  # Make account:
-
-
+# Make account:
 
 You need ubuntu acoount first:
 
@@ -8,27 +6,18 @@ You need ubuntu acoount first:
         
 Please fill out your information
 
-  # How to install virtualenv:
+# How to install virtualenv:
+ 
+log in with your account
 
-  <code>
-  
-      #log in with your account
-      virtualenv -p python3 $yourname 
-      
-  </code>
+    virtualenv -p python3 $yourname 
 
-  # Active your virtual environment:
-  
-  <code>
-  
+You can choose python2 also
+
+# Active your virtual environment:
+ 
     source $yourname/bin/activate
     
-  </code>
-
-  # To deactivate:
-  
-  <code>
+# To deactivate:
   
     deactivate
-    
-  </code>
