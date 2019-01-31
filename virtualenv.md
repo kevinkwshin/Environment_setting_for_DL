@@ -1,4 +1,4 @@
-# 1.Make account:
+## 1.Make account:
 
 You need ubuntu acoount first. For sudoers information, please contact administrator.
 
@@ -6,7 +6,7 @@ You need ubuntu acoount first. For sudoers information, please contact administr
         
 And please fill out your information.
 
-# 2.How to install virtualenv in my account:
+## 2.How to install virtualenv in my account:
  
 Firstly, log in with your account
 
@@ -14,10 +14,15 @@ Firstly, log in with your account
 
 You can choose python2 also
 
-# Active your virtual environment:
+## 3.Active your virtual environment:
  
     source $yourname/bin/activate
-    
-# To deactivate:
+
+## 4.Enjoy Your virtualenv:
+  
+  You can download anything you want here.
+  However, you need to save dataset into external drive which is /mnt/XXX
+
+## 5.To deactivate:
   
     deactivate
