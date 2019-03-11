@@ -66,3 +66,14 @@ with tf.Session() as sesh:
 
 
 https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73
+sudo apt install nvidia-390
+
+sudo add-apt-repository ppa:graphics-drivers/ppa
+
+sudo apt update
+
+sudo ubuntu-drivers autoinstall
+
+sudo apt install nvidia-cuda-toolkit gcc-6
+
+nvcc --version
