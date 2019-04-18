@@ -5,10 +5,13 @@ scp -P 28604 -i ~/Downloads/id_rsa_braincloud -r /media/kevin/MyData/dataset/Spi
 </code>
 
 # Rename files
+<code>
 rename 's/string/string_you_want/' *
+</code>
 
 # The GPU id to use, usually either "0" or "1";
+<code>
 import os
 os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";
 os.environ["CUDA_VISIBLE_DEVICES"]="0";  
- 
+</code> 
