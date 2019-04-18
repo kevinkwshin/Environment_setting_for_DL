@@ -11,7 +11,7 @@ rename 's/string/string_you_want/' *
 
 # The GPU id to use, usually either "0" or "1";
 <code>
-  import os
-  os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";
+  import os<br>
+  os.environ["CUDA_DEVICE_ORDER"]="PCI_BUS_ID";<br>
   os.environ["CUDA_VISIBLE_DEVICES"]="0";  
 </code> 
