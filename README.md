@@ -1,29 +1,8 @@
-# Install Tensorflow on Ubuntu (16.04)
+# How to set environment for Deep Learning
 
-## Open a terminal, instead of installing tool
-<code>
-      
-      ubiquity -b
-      #partition settings
-      swap : primary, 8192 (recommanded)
-      root : logical, rest (recommanded)
-
-</code>
-
-<code>
-     
-    # after installing, do not reboot. open terminal and run below codes
-     
-    sudo mount /dev/sdXY /mnt #sdXY --> ex)sda5
-
-    sudo mount --bind /dev /mnt/dev &&
-    sudo mount --bind /dev/pts /mnt/dev/pts &&
-    sudo mount --bind /proc /mnt/proc &&
-    sudo mount --bind /sys /mnt/sys
-
-    sudo chroot /mnt
-
-    grub-install /dev/sdX #sdX --> sda
-    grub-install --recheck /dev/sdX #sdX -->sda
-    update-grub
-</code>
+## 1. Setup Ubuntu 18.04
+## 2. Install Nvidia-Driver & Cuda (Feat. tensorflow.org)
+## 3. Install Docker-CE
+## 4. Install Nvidia-Docker
+## 5. Build your Docker image
+## 6. Settings, Run jupyter notebook
