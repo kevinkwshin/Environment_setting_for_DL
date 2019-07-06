@@ -1,4 +1,4 @@
-# ssamba
+# samba
 https://tutorials.ubuntu.com/tutorial/install-and-configure-samba
 
 # Screen
