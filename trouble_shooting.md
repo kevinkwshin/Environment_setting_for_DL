@@ -35,8 +35,7 @@ dpkg --configure -a
 </pre></code>
 
 # 우분투 터미널 원격접속 설정
-<code><pre>
-unbuntu remote using putty
+<code><pre>unbuntu remote using putty
 sudo su
 apt-get install ssh
 nano /etc/ssh/sshd_config
