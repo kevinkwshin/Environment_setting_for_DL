@@ -35,13 +35,14 @@ dpkg --configure -a
 </pre></code>
 
 # 우분투 터미널 원격접속 설정
+<code><pre>
 unbuntu remote using putty
 sudo su
 apt-get install ssh
 nano /etc/ssh/sshd_config
 Port 1984
 service ssh restart
-
+</pre></code>
 from 
 https://www.youtube.com/watch?v=cXygRsXOFtc
 
