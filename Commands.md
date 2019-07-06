@@ -3,8 +3,7 @@
 </pre></code>
 
 # Rename files
-<pre><code>
-rename 's/string/string_you_want/' *
+<pre><code>rename 's/string/string_you_want/' *
 </pre></code>
 
 # The GPU id to use, usually either "0" or "1"
