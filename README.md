@@ -6,3 +6,11 @@
 ## 4. Install Nvidia-Docker
 ## 5. Build your Docker image
 ## 6. Settings, Run jupyter notebook
+
+
+# 
+# useful library
+
+skvideo
+scipy
+
