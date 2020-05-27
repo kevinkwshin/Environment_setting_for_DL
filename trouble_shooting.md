@@ -46,3 +46,15 @@ from
 https://www.youtube.com/watch?v=cXygRsXOFtc
 
 
+mount: wrong fs type, bad option, bad superblock on 192.168.1.5:/home/shared, missing codepage or helper program, or other error (for several filesystems (e.g. nfs, cifs) you might need a /sbin/mount.<type> helper program)  
+In some cases useful info is found in syslog - try dmesg | tail or so.
+The error message mentions:
+
+(for several filesystems (e.g. nfs, cifs) you might need a /sbin/mount. helper program)
+
+This is relevant given that you are trying to mount NFS. The /sbin/mount.nfs helper program is provided by nfs-common. You can install it with:
+
+sudo apt install nfs-common
+On the other hand, if you are trying to mount CIFS, the helper program is provided by cifs-utils. You can install it with:
+
+sudo apt install cifs-utils
